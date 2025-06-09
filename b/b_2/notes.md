@@ -3,8 +3,8 @@
 ## You are optimizing data transfer on a microcontroller of the PIC32MZ family. 
 ## Explain how to configure DMA to move data from ADC to memory. 
 I'd assume the ADC is already configured and working. <BR>
-Next assumption is that the ADC is configured to trigger an interrupt after conversion is done. This means that we are not pooling data rather using interrupts. <BR>
-I'd set the DMA <BR>
+Next assumption is that the ADC is configured to trigger an interrupt once conversion is done. This means that we are not pooling data rather using interrupts. <BR>
+I'd set the DMA enabling it <BR>
 Set one of the 8 DMA channels <BR>
 Set source and destination address <BR>
 Set source data size <BR>
