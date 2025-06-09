@@ -1,4 +1,4 @@
-# B2?
+# B2
 
 ## You are optimizing data transfer on a microcontroller of the PIC32MZ family. 
 ## Explain how to configure DMA to move data from ADC to memory. 
